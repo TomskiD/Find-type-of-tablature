@@ -1,3 +1,6 @@
+### Uruchomienie aplikacji
+```npm start```
+
 ### Widok aplikacji składa się z dwóch części:
 Pole typu `search` do wpisania artysty bądź tytułu utworu
 Lista wyników spełniających warunek wyszukiwania, w której każdy element zawiera:
