@@ -1,0 +1,141 @@
+@media screen and (max-width: 375px) {
+  .tab {
+    width: 150px;
+    height: 150px;
+    margin: 20px 10px;
+    background: #fff;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.192);
+    border: 2px solid #000;
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition-duration: 1s;
+  }
+
+  .tab:hover {
+    background: #81807e;
+  }
+
+  .tab:hover .header-text {
+    display: block;
+  }
+  .tab:hover .header-song {
+    transition-duration: 2s;
+    display: none;
+  }
+  .tab:hover .header-artist {
+    transition-duration: 2s;
+    display: none;
+  }
+
+  .tab:hover .list {
+    transition-duration: 2s;
+    display: block;
+  }
+
+  .header-song {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .header-text {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  li {
+    display: inline;
+    font-family: "Pacifico", cursive;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px;
+    list-style-type: none;
+  }
+
+  .header-artist {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size: 1rem;
+  }
+
+  .header-text,
+  .list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .tab {
+    width: 400px;
+    height: 400px;
+    margin: 40px 20px;
+    background: #fff;
+    box-shadow: 60px 60px rgba(0, 0, 0, 0.192);
+    border: 2px solid #000;
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition-duration: 1s;
+  }
+
+  .tab:hover {
+    background: #81807e;
+  }
+
+  .tab:hover .header-text {
+    display: block;
+  }
+  .tab:hover .header-song {
+    transition-duration: 2s;
+    display: none;
+  }
+  .tab:hover .header-artist {
+    transition-duration: 2s;
+    display: none;
+  }
+
+  .tab:hover .list {
+    transition-duration: 2s;
+    display: block;
+  }
+
+  .header-song {
+    padding-top: 60px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .header-text {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  li {
+    display: inline;
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    line-height: 60px;
+    list-style-type: none;
+  }
+
+  .header-artist {
+    display: block;
+    padding-right: 20px;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+  }
+
+  .header-text,
+  .list {
+    display: none;
+  }
+}
